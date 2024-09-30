@@ -15,7 +15,7 @@ int main()
         {
             int l = pq.top().second*(-1);
             int len = pq.top().first;
-            q.pop();
+            pq.pop();
             int r = len+l - 1;
             int mid;
             if(len%2==0) mid = (l+r-1)/2;
